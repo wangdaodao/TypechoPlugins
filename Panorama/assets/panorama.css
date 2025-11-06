@@ -1,0 +1,45 @@
+/**
+ * Panorama插件样式表
+ * 用于全景图展示的样式定义
+ */
+
+.panorama-container {
+  width: 100%;
+  margin: 15px 0;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pnlm-controls-container{
+  right: 4px;
+  left: auto;
+}
+
+.panorama-viewer {
+  width: 100%;
+  height: 400px;
+}
+
+.pnlm-container {
+  font-family: inherit;
+}
+
+.pnlm-controls{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.pnlm-control:hover {
+  opacity: 0.7;
+}
+
+.pnlm-title-box{
+  font-size: 16px;
+}
+
+.pnlm-compass {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
